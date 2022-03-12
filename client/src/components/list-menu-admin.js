@@ -10,7 +10,6 @@ import GroupWorkIcon from '@mui/icons-material/GroupWork';
 import ExitToApp from '@material-ui/icons/ExitToApp';
 import { getToken, logout } from "../services/auth";
 import api from "../services/api";
-import { destroySession } from '../services/user.service';
 
 export const mainListItems = (
   <div>
@@ -54,7 +53,7 @@ async function confirmSair(){
       logout();
       window.location.href = '/admin/login'
     }else{
-      alert("Não foi possível fazer o logout !");
+      alert("Não foi possível fazer o logout - PEDRO!");
     }
   }
 }

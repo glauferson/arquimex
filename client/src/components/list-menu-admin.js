@@ -54,7 +54,7 @@ async function confirmSair(){
       logout();
       window.location.href = '/admin/login'
     }else{
-      alert("Não foi possível fazer o logout!");
+      alert("Não foi possível fazer o logout !");
     }
   }
 }
